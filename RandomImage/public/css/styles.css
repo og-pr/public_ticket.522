@@ -1,0 +1,114 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+}
+
+.buttonStyle {
+  background-color: #1346b8;
+  padding: 10px;
+  border: 0;
+  border-radius: 12px;
+}
+
+.container {
+  flex: 1,
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.imgCenter {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex: 1; 
+  -ms-flex: 1;  
+  border: 0; 
+  width: 59%;
+  height: 59%; 
+  object-fit: contain;
+}
+
+.imgError { 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex: 1; 
+  -ms-flex: 1; 
+  border: 0; 
+  width: 100px; 
+  height: 100px; 
+  object-fit: contain;
+}
+
+.stylesCard {  
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex: 1; 
+  -ms-flex: 1;  
+  width: 100%;
+  display: block;
+  position: relative;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 0px solid rgb(204, 204, 204);
+  color: rgb(0, 0, 0);
+}
+
+.stylesContainer {
+  max-width: 1200px;
+  padding: 0 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex: 1; 
+  -ms-flex: 1;  
+  border: 0; 
+}
+
+.stylesCenter {
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex: 1; 
+  -ms-flex: 1;  
+  border: 0; 
+}
+
+.textFooter {
+    align-self: center;
+    color: #ffffff;
+    font-family: inherit;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.textStyle {
+    align-self: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: inherit;
+    text-align: center;
+}
+
+.title {
+    color: #000000;
+    font-size: 32px;
+    margin-bottom: 32px;
+}

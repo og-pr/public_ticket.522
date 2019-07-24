@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<!--!
+
+//* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - */
+//*                                                                                              */
+//*    This is a PUBLIC Repo. See MIT License below.                                             */
+//*                                                                                              */
+//*    Any OLD code is 3rd party copyright. See documentation as needed.                         */
+//*    Any NEW code is Copyright (c) 2019 Otto Grajeda. All rights reserved.                     */
+//*                                                                                              */
+//*    NOTE 1: Code is NOT Production Ready.                                                     */
+//*    NOTE 2: For questions, please contact ottograjeda@gmail.com .                             */
+//*                                                                                              */
+//* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - */
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-->
+
+<html lang="en">
+<head>
+<title>Error</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}
+</style>
+
+<!-- ************************************************************* -->
+
+<style>
+body{font:1em/1.5em sans-serif}code,pre,tt{font:1em/1.5em Courier,'Courier New',monospace}b,h1,h2,h3,h4,h5,h6,strong{font-weight:700}dfn,em,i{font-style:italic}dfn{font-weight:700}code,kbd,p,pre{margin:0 0 1.5em 0}blockquote{margin:0 1.5em 1.5em 1.5em}cite{font-style:italic}li ol,li ul{margin:0 1.5em}ol,ul{margin:0 1.5em 1.5em 1.5em}ul{list-style-type:disc}ol{list-style-type:decimal}ol ol{list-style:upper-alpha}ol ol ol{list-style:lower-roman}ol ol ol ol{list-style:lower-alpha}dl{margin:0 0 1.5em 0}dl dt{font-weight:700}dd{margin-left:1.5em}table{margin-bottom:1.4em;width:100%}th{font-weight:700}caption,td,th{padding:4px 10px 4px 5px}tfoot{font-style:italic}sub,sup{line-height:0}abbr,acronym{border-bottom:1px dotted}address{margin:0 0 1.5em;font-style:italic}del{text-decoration:line-through}pre{margin:1.5em 0;white-space:pre}.aligncenter,div.aligncenter,img.centered{display:block;margin-left:auto;margin-right:auto}img.alignright{display:inline}img.alignleft{display:inline}.alignright{float:right;margin-left:10px}.alignleft{float:left;margin-right:10px}img{max-width:100%}* html .clearfix{height:1%}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}* html .group{height:1%}.group:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+</style>
+
+<!-- ************************************************************* -->
+
+<style>
+html{text-align:center;font-family:Arial,Helvetica,sans-serif;font-size:16pt;line-height:1.6}@media screen and (min-width:320px){html{text-align:center;font-family:Arial,Helvetica,sans-serif;font-size:calc(16px + 6 * ((100vw - 320px)/ 680));line-height:1.6}}@media screen and (min-width:1000px){html{text-align:center;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.6}}@media all and (min-width:551px){.mobile-br{display:inline}}@media all and (max-width:550px){.mobile-br{display:block;padding-top:10px!important;padding-bottom:10px!important}}.container{margin:0 auto;max-width:700px}
+</style>
+
+<!-- ********************************************************************************************* -->
+
+<script>
+console.log('loading js30');
+var host = window.location.hostname;
+console.log ("host = "+host);
+if( host == "localhost" || host == "127.0.0.1") {
+  console.log ("GA record no");
+} else {
+  console.log ("host = "+host);
+    // your google analytic code here
+  (function(a,b,c){var d=a.history,e=document,f=navigator||{},g=localStorage,
+  h=encodeURIComponent,i=d.pushState,k=function(){return Math.random().toString(36)},
+  l=function(){return g.cid||(g.cid=k()),g.cid},m=function(r){var s=[];for(var t in r)
+  r.hasOwnProperty(t)&&void 0!==r[t]&&s.push(h(t)+"="+h(r[t]));return s.join("&")},
+  n=function(r,s,t,u,v,w,x){var z="https://www.google-analytics.com/collect",
+  A=m({v:"1",ds:"web",aip:c.anonymizeIp?1:void 0,tid:b,cid:l(),t:r||"pageview",
+  sd:c.colorDepth&&screen.colorDepth?screen.colorDepth+"-bits":void 0,dr:e.referrer||
+  void 0,dt:e.title,dl:e.location.origin+e.location.pathname+e.location.search,ul:c.language?
+  (f.language||"").toLowerCase():void 0,de:c.characterSet?e.characterSet:void 0,
+  sr:c.screenSize?(a.screen||{}).width+"x"+(a.screen||{}).height:void 0,vp:c.screenSize&&
+  a.visualViewport?(a.visualViewport||{}).width+"x"+(a.visualViewport||{}).height:void 0,
+  ec:s||void 0,ea:t||void 0,el:u||void 0,ev:v||void 0,exd:w||void 0,exf:"undefined"!=typeof x&&
+  !1==!!x?0:void 0});if(f.sendBeacon)f.sendBeacon(z,A);else{var y=new XMLHttpRequest;
+  y.open("POST",z,!0),y.send(A)}};d.pushState=function(r){return"function"==typeof d.onpushstate&&
+  d.onpushstate({state:r}),setTimeout(n,c.delay||10),i.apply(d,arguments)},n(),
+  a.ma={trackEvent:function o(r,s,t,u){return n("event",r,s,t,u)},
+  trackException:function q(r,s){return n("exception",null,null,null,null,r,s)}}})
+  (window,"UA-134859767-1",{anonymizeIp:true,colorDepth:true,characterSet:true,screenSize:true,language:true});
+}
+</script>
+    
+</head>
+<body>
+<center>
+<h1>Oops! Error code 404</h1>
+<p>We can't find the page you're looking for.
+</center>
+</body>
+</html>
