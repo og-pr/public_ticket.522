@@ -22,7 +22,7 @@ export const iCheckFive = (aoldNow, aDevice) => {
     var now = Date.now();
     var today = new Date();
     var ONE_MIN = 1*60*1000;
-    var FIVE_MIN = 1*60*1000;
+    var FIVE_MIN = 1*60*1000; // set to 1 - for testing
     var oldDate = new Date(+aoldNow);
     var timeMath = now - oldDate;
     if (timeMath > FIVE_MIN) {
