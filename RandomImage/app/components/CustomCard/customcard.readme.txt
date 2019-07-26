@@ -1,0 +1,6 @@
+CustomCard Component Folder
+
+* CustomCardView.js is for Web
+
+* CustomCardView.native.js is for Mobile Platforms (Android + iOS)
+  You create .ios.js or .android.js file when specific device features are needed.

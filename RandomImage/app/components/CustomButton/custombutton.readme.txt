@@ -1,0 +1,6 @@
+CustomButton Component Folder
+
+* CustomButton for web is defined in web/css/styles.css
+
+* CustomButtonView.native.js is for Mobile Platforms (Android + iOS)
+  You create .ios.js or .android.js file when specific device features are needed.

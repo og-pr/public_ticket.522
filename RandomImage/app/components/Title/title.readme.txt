@@ -1,0 +1,6 @@
+Title Component Folder
+
+* TitleView.js is for Web
+
+* TitleView.native.js is for Mobile Platforms (Android + iOS)
+  You create .ios.js or .android.js file when specific device features are needed.

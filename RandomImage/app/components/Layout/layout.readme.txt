@@ -1,0 +1,6 @@
+Layout Component Folder
+
+* LayoutView.js is for Web
+
+* LayoutView.native.js is for Mobile Platforms (Android + iOS)
+  You create .ios.js or .android.js file when specific device features are needed.
