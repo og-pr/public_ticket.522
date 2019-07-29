@@ -82,6 +82,7 @@ export const iGetRandom = () => {
 }
 
 // Shuffle > Random aka Shuffle is better
+// ref https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 export const iShuffle = (array) => {
     var currentIndex = array.length;
     var temporaryValue, randomIndex;
