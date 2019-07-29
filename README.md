@@ -54,6 +54,7 @@ Screenshots
 Notes - Development 
 ===========
 * 2 components (a CustomButton & CustomCard) are used to keep UI consistent.
+* Unique image error mechanism used for Web and Mobile (Android/iOS) platforms. 
 * The JSON API is at [Google Cloud](https://cloud.google.com/) and is a [Google Apps Script](https://developers.google.com/apps-script/) ; it uses one of my [gists](https://gist.github.com/ottograjeda/).
 * Due to different implimentations of Web Storage API, ```localStorage``` is used for Web (see ```web.js```) and ```AsyncStroage``` is used for for Android, & iOS (see ```mobile.js```).  Both files are used in the main component ```CustomCard```. The majority of shared code is in file ```shared.js```.
 
