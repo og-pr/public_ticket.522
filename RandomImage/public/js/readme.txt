@@ -1,0 +1,1 @@
+After build process, your JS files will be here.
