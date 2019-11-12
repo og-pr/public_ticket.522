@@ -1,6 +1,6 @@
 React-Native Monorepo: RandomImage
 =================
-"RandomImage" gets a flat JSON file of image_URLs (from a custom API) and displays 1 random link when the button is clicked. A generic error_image is shown if link cannot be reached due to network error, typo, or is missing.  If the JSON file is older than 5 minutes, a new file is transferred & used. The app was ported from a [Plain JS webapp](https://contactstoolkit.com/demo/randomImage/viaBrowser.html) I created & use.
+"RandomImage" gets a flat JSON file of image_URLs (from a custom API) and displays 1 random image when the button is clicked. A generic error_image is shown if link cannot be reached due to network error, typo, or is missing.  If the JSON file is older than 5 minutes, a new file is transferred & used. The app was ported from a [Plain JS webapp](https://contactstoolkit.com/demo/randomImage/viaBrowser.html) I created & use.
 
 This is upgrade work to [another monorepo](https://github.com/og-pr/public_ticket.520). The repos are examples for how to share code between different platforms (Web, Android, & iOS). They can be used as a template or starter-kit for React-Native & React-Native-Web. The key to code sharing is React-Native's [Platform-specific extensions](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-specific-extensions). The extensions are ```.native.js``` , ```.ios.js``` or ```.android.js``` and when used, the relevant platform file is compiled.
 
