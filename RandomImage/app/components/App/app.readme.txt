@@ -1,7 +1,0 @@
-App Component Folder
-
-* AppView.js is for Web
-
-* AppView.native.js are for Mobile Platforms (Android + iOS)
-  You create .ios.js or .android.js file when specific device features are needed.
-
